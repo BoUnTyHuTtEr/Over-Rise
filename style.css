@@ -1,0 +1,574 @@
+body {
+    background-color: black;
+}
+
+#Header {
+    width: 100%;
+    height: 7.8rem;
+    padding-top: 1.8rem;
+    background-color: rgba(118, 47, 185, 0.829);
+
+
+
+}
+
+#Navigation {
+    padding-top: 2rem;
+    margin-bottom: 1rem;
+
+
+}
+
+.Versiondiv {
+    text-align: center;
+    padding-top: 20rem;
+
+
+}
+
+.Headerhdl {
+    font-size: 38px;
+    text-align: center;
+    font-family: "fantasy"
+}
+
+.version {
+    color: #474747;
+    margin-bottom: 10rem;
+
+}
+
+
+
+
+
+
+.A {
+    color: #c67272;
+    margin-top: 30rem;
+    font-size: 21px;
+    margin-right: 1rem;
+    transition: 0.3s;
+}
+
+.A:hover {
+    color: #06ee46;
+    font-size: 23px;
+
+
+}
+
+#Navigation {
+    text-align: center;
+
+}
+
+#Dcbutton {
+    appearance: none;
+    background: #0a0df6;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    margin-left: 40.5rem;
+    margin-top: 2rem;
+    padding: 20px 80px;
+    font-size: 24px;
+    font-weight: 600;
+    transition: 0.7s;
+    transition-delay: 0.25s;
+    border: 4px solid #0a0df6;
+
+
+
+}
+
+#Dcbutton:hover {
+    color: white;
+    background: #e80af5;
+    font-size: 26px;
+    border: 7px solid white;
+    box-shadow: 12px 12px 12px hsl(297, 92%, 27%);
+}
+
+
+
+
+
+#DefOr {
+    margin-top: 4rem;
+
+}
+
+#DefOrtext {
+    color: white;
+    font-size: 23px;
+
+
+
+}
+
+#Regelnhdltxt {
+    color: white;
+    font-size: 34px;
+    font-family: "fantasy";
+    background-color: rgba(118, 47, 185, 0.829);
+    letter-spacing: 0.15rem;
+
+
+
+}
+
+#Regelnhdl {
+    margin-top: 5rem;
+
+
+
+}
+
+.Reglentxt {
+    color: white;
+    font-size: 23px;
+    letter-spacing: 0.05rem;
+
+}
+
+.Regelntxtrich {
+    font-weight: 900;
+    text-decoration: underline;
+
+
+}
+
+.Teamhdl {
+    color: white;
+    font-family: "fantasy";
+    font-size: 34px;
+    letter-spacing: 0.15rem;
+}
+
+.Teamhdldiv {
+    background-color: rgba(118, 47, 185, 0.829);
+    margin-top: 1rem;
+}
+
+.Teamslct {
+    width: 14rem;
+    height: 2.5rem;
+    background-color: transparent;
+    color: white;
+
+
+
+}
+
+.Teamslctop {
+    background-color: transparent;
+
+}
+
+.DcTosbtndiv {
+    margin-top: 4.8rem;
+    text-align: center;
+
+}
+
+.DcTosbtn {
+    width: 16.5rem;
+    height: 4.3rem;
+    background-color: #c71d1a;
+    border: 4px solid white;
+    transition: 1.45s;
+
+
+}
+
+.DcTosbtn:hover {
+    box-shadow: inset 300px 0 0 0 #f3f00c;
+    cursor: pointer;
+}
+
+.Dctosbtnspan {
+    font-family: "fantasy";
+    font-size: 21px;
+}
+
+.Eventshdldiv {
+    background-color: rgba(118, 47, 185, 0.829);
+    margin-top: 12rem;
+
+}
+
+.Eventshdlspan {
+    color: white;
+    font-family: "fantasy";
+    font-size: 34px;
+    letter-spacing: 0.10rem;
+}
+
+.Eventsvorschlägeshdl {
+    background-color: rgb(114, 186, 46);
+    margin-top: 6rem;
+    color: white;
+    font-size: 23px;
+}
+
+#Eventinput {
+    color: white;
+    height: 2rem;
+    width: 30rem;
+    background-color: black;
+    border: 3px solid white;
+    font-size: 20px;
+    margin-top: 2rem;
+}
+
+#Eventinput2 {
+    color: white;
+    margin-left: 4.5rem;
+    height: 2rem;
+    width: 15rem;
+    background-color: black;
+    border: 3px solid white;
+    font-size: 20px;
+    margin-top: 2rem;
+}
+
+#Eventsubmit {
+    margin-left: 4rem;
+    background-color: black;
+    color: white;
+    width: 10rem;
+    height: 2.5rem;
+    border: 3.7px solid white;
+    margin-top: 2rem;
+    font-size: 18.5px;
+    transition: 1.4s;
+
+}
+
+#Eventsubmit:hover {
+    cursor: pointer;
+    box-shadow: inset 200px 0 0 0 hsl(0, 0%, 24%);
+    ;
+}
+
+.Eventshdl {
+    background-color: rgb(114, 186, 46);
+    margin-top: 5rem;
+    color: white;
+    font-size: 23px;
+    font-family: "fantasy";
+}
+
+
+.Eventsa {
+    height: 5rem;
+
+    padding: 16px 90px;
+    margin: 0 15px;
+    text-decoration: none;
+    color: white;
+    background-color: #6a0ddb;
+    font-size: 30px;
+    border: 4.8px solid white;
+    letter-spacing: 2px;
+    transition: 1.6s, 3.6s color, 4.4s border;
+
+
+}
+
+.Eventsadiv {
+    margin-top: 8rem;
+    text-align: center;
+}
+
+.Eventsa:hover {
+    cursor: pointer;
+    box-shadow: inset 600px 0 0 0 #7edb0d;
+    color: black;
+    box-shadow: 4.8px solid hsl(267, 89%, 61%);
+}
+
+#Eventvorschläge {
+    color: white;
+    font-size: 21px;
+}
+
+#Teamsclt {
+    background-color: black;
+    color: white;
+    height: 2.5rem;
+    width: 14rem;
+    font-size: 18px;
+}
+
+.Eventsubmitfilter {
+    margin-left: 4rem;
+    background-color: red;
+    color: white;
+    width: 10rem;
+    height: 2.5rem;
+    border: 3.7px solid white;
+    margin-top: 2rem;
+    font-size: 18.5px;
+    transition: 1.4s;
+
+}
+
+.Eventsubmitfilter:hover {
+    cursor: not-allowed;
+    box-shadow: inset 200px 0 0 0 hsl(0, 0%, 24%);
+
+}
+
+#submitcard {
+    display: none;
+    background-color: #2fed3f;
+    width: 40rem;
+    height: 1.4rem;
+    color: white;
+    margin-top: 1.7rem;
+    text-align: center;
+    margin: auto;
+    margin-top: 3.8rem;
+    font-size: 20px;
+}
+
+#submitcardfalse {
+    display: block;
+    background-color: #f02618;
+    width: 40rem;
+    height: 1.4rem;
+    color: white;
+    margin-top: 1.7rem;
+    text-align: center;
+    margin: auto;
+    margin-top: 3.8rem;
+    font-size: 20px;
+}
+
+#Adminbutton {
+    background-color: #1a1a19;
+    height: 0.1rem;
+    width: 1.2rem;
+    border-color: black;
+    margin-top: 0.2rem;
+}
+
+#adminlogin {
+    display: none;
+    background-color: rgba(233, 27, 27, 0.812);
+    width: 17rem;
+    height: 18rem;
+    margin-top: 6rem;
+}
+
+#adminlogininput {
+    background-color: black;
+    color: white;
+    border: 3px solid white;
+    margin-top: 2rem;
+    margin-left: 2rem;
+    font-size: 18px;
+}
+
+#adminlogininput2 {
+    background-color: black;
+    color: white;
+    border: 3px solid white;
+    margin-top: 3.5rem;
+    margin-left: 2rem;
+    font-size: 18px;
+}
+
+#adminsubmitbtn {
+    height: 1.5rem;
+    width: 7rem;
+    background-color: black;
+    color: white;
+    margin-left: 4rem;
+    margin-top: 2.5rem;
+    font-size: 16px;
+
+}
+
+#adminsubmitbtn:hover {
+    cursor: pointer;
+}
+
+#Profile {
+    display: none;
+    margin-left: 87.8rem;
+    margin-top: 1.1rem;
+    background-color: #919492;
+    height: 4.8rem;
+    width: 6.5rem;
+    margin-right: 3rem;
+    text-align: center;
+    font-size: 23px;
+}
+
+#Profileimg {
+    border-radius: 50%;
+    width: 2.3rem;
+    height: 2.3rem;
+    margin-top: 0.3rem;
+    margin-left: 0.4rem;
+}
+
+#dropdown {
+    padding-top: 1rem;
+    height: 3rem;
+    width: 1.7rem;
+    background-color: transparent;
+    border: none;
+    font-size: 24px;
+    transition: 0.9s;
+    margin-left: 1.65rem;
+
+
+}
+
+#dropdown:hover {
+    background-color: #bdbfbe;
+    cursor: pointer;
+}
+
+#Dropdownmenu {
+    display: none;
+    background-color: #919492;
+    width: 14rem;
+    height: 8rem;
+    margin-top: 1.1rem;
+    margin-left: 80rem;
+}
+
+#dropdownlogout {
+    background-color: #bdbfbe;
+    width: 4.2rem;
+    height: 2.3rem;
+    margin-top: 1.5rem;
+    text-align: center;
+    margin-left: 1.2rem;
+    transition: 0.7s;
+
+}
+
+#logoutquestion {
+    display: none;
+    background-color: white;
+    border: solid 3px blue;
+}
+
+#logoutbutton1 {
+    height: 1.7rem;
+    width: 3rem;
+    margin-top: 2rem;
+    margin-left: 0.2rem;
+    margin-bottom: 0.5rem;
+}
+
+#logoutbutton2 {
+    height: 1.7rem;
+    width: 3rem;
+    margin-left: 0.5rem;
+
+}
+
+#logoutbutton3 {
+    background-color: #afb0b3;
+    margin-left: 4.2rem;
+    margin-top: 1rem;
+    transition: 0.3s;
+
+
+}
+
+#Logoutspan {
+    font-size: 14.5px;
+
+}
+
+#logoutbutton3:hover {
+    background-color: red;
+    cursor: pointer;
+}
+
+#logoutbutton2:hover {
+    border: solid 2.5px blue;
+    cursor: pointer;
+}
+
+#logoutbutton1:hover {
+    border: solid 2.5px blue;
+    cursor: pointer;
+}
+
+#dropdownlogoutinvis {
+    display: none;
+}
+#dropdownsuggestions{
+    background-color: #bdbfbe;
+    width: 5.2rem;
+    height: 2.3rem;
+    margin-top: 1.5rem;
+    text-align: center;
+    margin-left: 1.2rem;
+    transition: 0.7s;    
+}
+#dropdownlogout:hover{
+background-color: #898a8a ;
+cursor: pointer;  
+
+}
+#dropdownsuggestionsinvis{
+display: none;
+}
+#dropdownsuggestions:hover{
+background-color: #898a8a ;
+cursor: pointer;    
+}
+#suggestions{
+display: none;    
+position: relative;    
+color: white;
+margin-top: 5rem; 
+background-color: #bdbfbe;
+height: 24rem; 
+width: 72rem;
+margin-left: 11rem;
+}
+#suggessheader{
+color: black;
+font-size: 33px;
+margin-left: 29.5rem;  
+}
+#suggesclear{
+    background-color: #bdbfbe;
+    width: 5.2rem;
+    height: 2.3rem;
+    margin-top: 1.5rem;
+    text-align: center;
+    margin-left: 3rem;
+    transition: 0.7s;        
+}
+#suggesclear:hover{
+    background-color: #898a8a ;
+    cursor: pointer;    
+}
+#suggescleardiv{
+margin-top: 17.7rem;    
+}
+#suggessclosebutton{
+    position: absolute;
+    background-color: #afb0b3;
+    width: 2.5rem;
+    top:0;
+    right: 0;
+    transition: 0.7s;     
+}
+#suggessclosebutton:hover{
+background-color: red; 
+cursor: pointer;   
+}
+

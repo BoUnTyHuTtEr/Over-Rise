@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="x-icon" href="Shrek.png">
+    <link rel="stylesheet" href="style2.css">
+    <script src="script2.js"></script>
+    <title>Over Rise | Events</title>
+</head>
+
+<body>
+    <div id="Header">
+        Events
+    </div>
+    <div id="backtomainpagdiv">
+        <a href="file:///C:/Users/Stumpf/Documents/Html/Over%20rise/index.html" id="backtomainpage">zurück</a>
+
+    </div>
+
+    <div id="Profile">
+        Admin
+        <img id="Profileimg" src="Thomas.webp" alt="">
+        <button id="dropdown" type="button" onclick="Profile()">+</button>
+    </div>
+    <div id="Dropdownmenu">
+        <button id="dropdownlogout" onclick="adminlogout()">
+            Logout
+        </button>
+        <div id="logoutquestion">
+            <span id="Logoutspan">Do you really want to Logout?</span>
+            <button id="logoutbutton1" onclick="Logoutproceed()">Yes</button>
+            <button id="logoutbutton2" onclick="Logoutcancel()">No</button>
+            <button id="logoutbutton3" onclick="Logoutcancel()">X</button>
+        </div>
+
+    </div>
+    <div class="navigation">
+        <a class="A" href="#Anstehende Events">Anstehende Events</a>
+
+    </div>
+    <div class="Imgdiv">
+        <img src="Server life.png" alt="" class="Dcimg">
+        <img id="Eventsimg" src="Event free boboux.png" alt="">
+        <img id="Eventsimg" src="Event roolercoaster.png" alt="">
+    </div>
+    <section id="Anstehende Events">
+        <div class="EventTable">
+            <h2 class="Eventtablehdl">Anstehende Events</h2>
+            <table bgcolor="black" width="720">
+                <tr bgcolor="grey">
+                    <div class="Eventth1div">
+                        <th class="Eventth1">Event</th>
+                    </div>
+                    <div class="Eventth2div">
+                        <th class="Eventth2">Datun</th>
+                    </div>
+                    <div class="Eventth3div">
+                        <th class="Eventth3">Teilnehmer</th>
+                    </div>
+                    <div class="Eventth4div">
+                        <th class="Eventth4" width="170">Status</th>
+                    </div>
+
+
+
+
+
+
+                <tr bgcolor="#c7c4bf">
+                    <td class="Eventtd">Talk um 20 uhr</td>
+                    <td class="Eventtd">9.6.22 | 20uhr</td>
+                    <td class="Eventtd">3</td>
+                    <td class="Eventtdgreen">findet statt</td>
+
+
+                </tr>
+                <tr bgcolor="#c7c4bf">
+                    <td class="Eventtd">Sunday Party</td>
+                    <td class="Eventtd">11.6.22 | ganztägig</td>
+                    <td class="Eventtd">10</td>
+                    <td class="Eventtdyellow">unsicher</td>
+                </tr>
+                <tr bgcolor="#c7c4bf">
+                    <td class="Eventtd">Test</td>
+                    <td class="Eventtd">-----------</td>
+                    <td class="Eventtd">na</td>
+                    <td class="Eventtdred">abgesagt</td>
+                </tr>
+            </table>
+
+
+
+
+
+        </div>
+
+    </section>
+    <div id="adminlogin">
+        <input id="adminlogininput" type="text" placeholder="Unsername">
+        <input id="adminlogininput2" type="text" placeholder="Password">
+        <button id="adminsubmitbtn" type="button" onclick="adminsubmitbtn()">Login</button>
+    </div>
+
+
+
+
+    <div class="endcard">Ver.Alpha|4.0</div>
+    <button id="Adminbutton" onclick="adminbnt()" type="button"></button>
+
+
+</body>
+
+</html>
