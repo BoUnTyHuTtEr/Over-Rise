@@ -1,3 +1,4 @@
+"use strict"
 console.log("Your Computer has Virus");
 function adminbnt() {
    document.getElementById("adminlogin").style.display = "block"

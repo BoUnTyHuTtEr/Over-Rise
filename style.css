@@ -529,13 +529,13 @@ background-color: #898a8a ;
 cursor: pointer;    
 }
 #suggestions{
-display: none;    
+display: none;   
 position: relative;    
 color: white;
 margin-top: 5rem; 
 background-color: #bdbfbe;
 height: 24rem; 
-width: 72rem;
+width: 72rem; 
 margin-left: 11rem;
 }
 #suggessheader{
@@ -547,7 +547,7 @@ margin-left: 29.5rem;
     background-color: #bdbfbe;
     width: 5.2rem;
     height: 2.3rem;
-    margin-top: 1.5rem;
+    margin-top: 0.7rem;
     text-align: center;
     margin-left: 3rem;
     transition: 0.7s;        
@@ -570,5 +570,24 @@ margin-top: 17.7rem;
 #suggessclosebutton:hover{
 background-color: red; 
 cursor: pointer;   
+}
+#Dropdownmenuinvis{
+display:none    
+}
+#Profileinvis{
+display: none;    
+}
+#Profileimginvis{
+display: none;    
+}
+#suggesamount{
+font-size: 23px;
+color: black;
+margin-top: 3.5rem; 
+margin-left: 20.5rem;   
+}
+#suggesamountdiv{
+margin-top: 1.5rem;
+margin-left: 30rem;    
 }
 
